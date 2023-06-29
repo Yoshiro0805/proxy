@@ -14,5 +14,5 @@ fi
 wget -q https://github.com/Yoshiro0805/proxy/raw/Andriod/proxy
 sleep 1
 echo -e "${GREEN}YoshiProxy is now Installed.${ENDCOLOR}"
-echo -e "${GREEN}Execute proxy with this command: ./proxy_linux${ENDCOLOR}"
-chmod +x proxy_linux
+echo -e "${GREEN}Execute proxy with this command: ./proxy${ENDCOLOR}"
+chmod +x proxy
