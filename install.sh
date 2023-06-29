@@ -5,13 +5,14 @@ ENDCOLOR="\e[0m"
 clear
 echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
-if [ -f "proxy_linux" ]; then
+if [ -f "proxy" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
-    rm proxy_linux
+    rm proxy
+    sleep 1
     echo -e "${GREEN}Getting proxy...${ENDCOLOR}"
 fi
 wget -q https://github.com/Ruzgarefeyavuz/kuloandroidproxy/raw/main/proxy_linux
 sleep 1
-echo -e "${GREEN}Kulo Proxy is now Installed.${ENDCOLOR}"
+echo -e "${GREEN}AJProxy is now Installed.${ENDCOLOR}"
 echo -e "${GREEN}Execute proxy with this command: ./proxy_linux${ENDCOLOR}"
 chmod +x proxy_linux
